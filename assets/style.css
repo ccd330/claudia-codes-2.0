@@ -1,0 +1,21 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+}
+
+main h1 {
+  font-size: 50px;
+  color: #006d77;
+}
+
+a {
+  color: #000000;
+}
+
+footer {
+  text-align: center;
+}
