@@ -9,12 +9,28 @@ html {
 main img {
   width: 300px;
   height: 300px;
-  margin-top: 20px;
+  border-radius: 5px;
 }
 
 main h1 {
-  font-size: 50px;
+  font-size: 75px;
   color: #006d77;
+}
+
+button {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #e07a5f;
+  border: 1px solid #e07a5f;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #006d77;
+  border: 1px solid #006d77;
+  transition: 1s ease-in-out;
 }
 
 a {
@@ -23,4 +39,9 @@ a {
 
 footer {
   text-align: center;
+}
+.about-me,
+.my-work,
+.contact-me {
+  color: #006d77;
 }
